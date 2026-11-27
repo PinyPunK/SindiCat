@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sindicat-primary: #477C60;
+  --color-sindicat-primary-light: #E8F1EA;
+  --color-sindicat-bg: #F5F0E7;
+  --color-sindicat-ink: #343A40;
+  --color-sindicat-surface: #FFFFFF;
+  --color-sindicat-warning: #E5A044;
+  --color-sindicat-danger: #C85C5C;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-sindicat-bg);
+    color: var(--color-sindicat-ink);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
